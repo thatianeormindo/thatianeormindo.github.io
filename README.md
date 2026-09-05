@@ -1,35 +1,26 @@
-# Thatiane Malheiros | Application Security Portfolio
+# Thatiane Malheiros — Portfolio 2.0
 
-Professional portfolio showcasing Application Security expertise, practical projects in vulnerability assessment, and technical write-ups.
+Portfólio em Next.js: Developer com IA, foco em AppSec.
 
-## Overview
+## Desenvolvimento
 
-This portfolio presents:
-- **Practical Projects**: Labs, tools, and security analyses in AppSec
-- **Write-ups & Analysis**: Technical reports on controlled vulnerability assessments
-- **Skills & Expertise**: Application Security, Web & API Security, Vulnerability Assessment
-
-## Technology Stack
-
-- **Framework**: TanStack React Start with TypeScript
-- **Styling**: Tailwind CSS with custom design system
-- **Colors**: Professional dark theme (black, white, graphite, red)
-- **Hosting**: Responsive design for desktop and mobile
-
-## Development
-
-To run locally, you need Node.js and npm.
-
-```sh
-git clone <repository-url>
-cd portfolio
-npm install
-npm run dev
+```bash
+pnpm install
+pnpm dev
 ```
 
-## Built with
+Abre em [http://localhost:3000](http://localhost:3000).
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Feedback (opcional)
+
+A seção de feedback usa Postgres. Defina no ambiente:
+
+```bash
+DATABASE_URL=postgresql://...
+```
+
+Sem essa variável, o site abre normalmente; só o salvamento de feedback fica desativado.
+
+## Deploy
+
+Projeto Next.js — o caminho mais simples é [Vercel](https://vercel.com) conectado a este repositório. Configure `DATABASE_URL` nas variáveis de ambiente se quiser o formulário de feedback.
